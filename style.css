@@ -32,9 +32,10 @@ body {
     display: flex;
     justify-content:center;
     align-self: center;
-    width: 400px;
+    width: 500px;
     height: 250px;
-    background-color: grey;;
+    background-color: grey;
+    object-fit: contain;
 }
 
 .hero {
@@ -64,4 +65,82 @@ button {
     border-radius: 10px;
     background-color: #3882F6;
     border-color: #3882F6;
+}
+
+.hero-2 {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    padding: 16px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.projects {
+    display: flex;
+    gap: 16px;
+    margin: 0px 300px 0px;
+    text-align: center;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.first-project,
+.second-project,
+.third-project,
+.fourth-project {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+    margin: 0px;
+}
+
+.subtext-1,
+.subtext-2,
+.subtext-3,
+.subtext-4 {
+    display: flex;
+    padding: 8px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    color: #1F2937;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
 }
