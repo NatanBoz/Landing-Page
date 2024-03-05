@@ -65,6 +65,7 @@ button {
     border-radius: 10px;
     background-color: #3882F6;
     border-color: #3882F6;
+    color: white;
 }
 
 .hero-2 {
@@ -138,9 +139,41 @@ button {
 .quote {
     font-style: italic;
     font-size: 36px;
+
 }
 
 .author {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    margin: 64px 128px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6; 
+    padding: 32px;
+    color: white;
+    gap: 128px;
+    border-radius: 15px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.last {
+    border: 3px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 16px;
 }
